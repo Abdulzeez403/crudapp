@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.5",
+    "mysql": "github:mysqljs/mysql",
+    "mysql2": "^2.3.3",
+    "nodeman": "^1.1.2",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "@types/mysql": "^2.15.21"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "devStart": " nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
